@@ -1,13 +1,13 @@
-This is a baseline tool for cloning and building the repos, as well as configuring the reverse proxy settings within nginx, specialized for usage with AWS.  
+This is a baseline tool for cloning and building the repos, as well as configuring the reverse proxy settings within nginx, specialized for usage with AWS.
 
-Steps for executing:  
+Steps for executing:
 
-1. sudo  yum -y install git    
-2. sudo cd /opt && sudo git clone https://github.com/CodeForNC/reentry-resources-hub.git  
-3. sudo chmod +x /opt/reentry-resources-hub/deployment/reentry-deployment-script.sh  /opt/reentry-resources-hub/deployment/reentry-deployment-script2.sh  
-4. sudo /opt/reentry-resources-hub/deployment/./reentry-deployment-script.sh   
-5. sudo /opt/reentry-resources-hub/deployment/./reentry-deployment-script2.sh  
+1. sudo yum -y install git
+2. sudo cd /opt && sudo git clone <https://github.com/CodeForNC/reentry-resources-hub.git>
+3. sudo chmod +x /opt/reentry-resources-hub/deployment/reentry-deployment-script.sh /opt/reentry-resources-hub/deployment/reentry-deployment-script2.sh
+4. sudo /opt/reentry-resources-hub/deployment/./reentry-deployment-script.sh
+5. sudo /opt/reentry-resources-hub/deployment/./reentry-deployment-script2.sh
 
+# Working on Jenkins integration now, subject to change
 
-##Working on Jenkins integration now, subject to change##
-#jenkins-install.sh contains steps for initial setup and perhaps additional maintenance information#
+_jenkins-install.sh contains steps for initial setup and perhaps additional maintenance information_
