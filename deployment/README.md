@@ -7,3 +7,7 @@ Steps for executing:
 3. sudo chmod +x /opt/reentry-resources-hub/deployment/reentry-deployment-script.sh  /opt/reentry-resources-hub/deployment/reentry-deployment-script2.sh  
 4. sudo /opt/reentry-resources-hub/deployment/./reentry-deployment-script.sh   
 5. sudo /opt/reentry-resources-hub/deployment/./reentry-deployment-script2.sh  
+
+
+##Working on Jenkins integration now, subject to change##
+#jenkins-install.sh contains steps for initial setup and perhaps additional maintenance information#
